@@ -11,9 +11,9 @@ if timsHeightCM.isCompatibleWithUnit(dm) {
 }
 
 if let timsHeightDM = timsHeightDM {
-    println("Tim's height in deci-meters is \(timsHeightDM)")
+    print("Tim's height in deci-meters is \(timsHeightDM)")
 } else {
-    println("Tim's height cannot be calculated in deci-meters!")
+    print("Tim's height cannot be calculated in deci-meters!")
 }
 
 

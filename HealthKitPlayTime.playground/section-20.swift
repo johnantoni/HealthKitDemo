@@ -10,9 +10,9 @@ if timsWeightKG.isCompatibleWithUnit(ounceUnit) {
 }
 
 if let timsWeightOunces = timsWeightOunces {
-    println("Tim's weight in ounces is \(timsWeightOunces)")
+    print("Tim's weight in ounces is \(timsWeightOunces)")
 } else {
-    println("Error: Tim's weight is not convertable to ounces!")
+    print("Error: Tim's weight is not convertable to ounces!")
 }
 
 // Do the same as above for Stones! How many stones does Tim weight? What about your other minions? 
